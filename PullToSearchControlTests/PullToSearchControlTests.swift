@@ -2,7 +2,7 @@
 //  PullToSearchControlTests.swift
 //  PullToSearchControlTests
 //
-//  Created by Alexander Vuong on 29/3/19.
+//  Created by Cuong Vuong on 29/3/19.
 //  Copyright © 2019 i3. All rights reserved.
 //
 

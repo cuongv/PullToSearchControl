@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol PullToSearchControlDelegate: AnyObject {
+public protocol PullToSearchControlDelegate: AnyObject {
     func didFinishPull()
 }
 
-final class PullToSearchControl: UIRefreshControl {
+public final class PullToSearchControl: UIRefreshControl {
     private lazy var magnifingView = MagnifyingView()
     
     private let finishOffset: CGFloat = 120
@@ -22,9 +22,9 @@ final class PullToSearchControl: UIRefreshControl {
     private var isRunningAnimation = false
     private var lastOffset: CGFloat = 0
     
-    weak var delegate: PullToSearchControlDelegate?
+    public weak var delegate: PullToSearchControlDelegate?
 
-    override init() {
+    public override init() {
         super.init()
         setUp()
     }
@@ -63,7 +63,7 @@ final class PullToSearchControl: UIRefreshControl {
         })
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         guard !isRunningAnimation && scrollView.contentOffset.y < 0 else { return }
         
         //Re-display magnify when scrolling down only
@@ -74,7 +74,7 @@ final class PullToSearchControl: UIRefreshControl {
         lastOffset = scrollView.contentOffset.y
     }
     
-    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    public func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         guard !isRunningAnimation && scrollView.contentOffset.y < 0 else { return }
 
         //Drag over the finish offset and release
