@@ -1,5 +1,5 @@
 # PullToSearchControl
-This CocoaPods library helps you add pull to search behaviour for UIScrollView or its descendants, such as UITableView or UICollectionView.
+This CocoaPods library helps you add pull to search (or pull to do other actions) behaviour for UIScrollView or its descendants, such as UITableView or UICollectionView.
 
 ![PullToSearchControl2](https://user-images.githubusercontent.com/992197/55276392-4dc70380-532e-11e9-9122-564938fa8e71.gif)
 
@@ -10,7 +10,7 @@ This CocoaPods library helps you add pull to search behaviour for UIScrollView o
 
 
 # What's this?
-PulToSearchControl is a subclass of UIRefreshControl. It can be added to UIScrollView directly as a UIRefreshControl. But instead of performing reload task, it helps performing search by making UISearchBar active.
+PulToSearchControl is a subclass of UIRefreshControl. It can be added to UIScrollView directly as a UIRefreshControl. But instead of performing reload task, it helps performing search or any other actions by hand you a callback when pull action is done.
 
 # Requirement
 + iOS 9.0+
