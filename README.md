@@ -1,3 +1,4 @@
+# PullToSearchControl
 This CocoaPods library helps you add pull to search behaviour for UIScrollView or its descendants, such as UITableView or UICollectionView.
 
 ![PullToSearchControl2](https://user-images.githubusercontent.com/992197/55276392-4dc70380-532e-11e9-9122-564938fa8e71.gif)
