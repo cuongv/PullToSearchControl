@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "PullToSearchControl"
   s.version      = "0.0.1"
-  s.summary      = "PullToSearchControl being used to create pull to search behaviour."
+  s.summary      = "PullToSearchControl being used to create pull-to-search behaviour."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  This CocoaPods library helps you add pull to search behaviour in UIScrollView or its descendants, such as UITableView or UICollectionView.
+  This CocoaPods library helps you add pull to search behaviour for UIScrollView or its descendants, such as UITableView or UICollectionView.
                    DESC
 
   s.homepage     = "https://github.com/cuongv/PullToSearchControl"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://user-images.githubusercontent.com/992197/55276392-4dc70380-532e-11e9-9122-564938fa8e71.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
